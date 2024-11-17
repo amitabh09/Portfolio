@@ -1,0 +1,79 @@
+* {
+    margin: 0px;
+}
+.flexSBC {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+header{
+    position: fixed;
+    width: 100%;
+}
+.head, .head1 {
+    color: rgb(122, 7, 229);
+}
+.head {
+    padding: 0px 60px;
+    height: 100px;
+    background-color: rgba(231, 146, 236, 0.233);
+}
+.head1>img {
+    width: 68px;
+    border-radius: 34px;
+}
+.head2>span>a {
+    text-decoration: none;
+    cursor: pointer;
+}
+.head2>span,.head2button, .head2>span>a {
+    font-size: 22px;
+    padding-right: 10px;
+    color: rgb(122, 7, 229);
+    border: none;
+    font-family: sans-serif;
+}
+.head2>span>a {
+    text-decoration: none;
+}
+.head2button {
+    font-size: 20px;
+    padding: 14px 40px;
+    border-radius: 7px;
+    color: white;
+    background-color: rgb(51,85,179);
+    cursor: pointer;
+}
+/* *************************************************** Section 1 ***************************************************************************** */
+.sec1 {
+    padding: 150px 300px;
+    background-color: rgba(231, 146, 236, 0.081);
+    font-family: cursive !important;
+}
+.sec1>p, .sec1>h1 {
+    color: rgb(32, 32, 221);
+    line-height: 1.8;
+}
+.sec1>h1 {
+    font-size: 60px;
+    padding: 10px 0px;
+}
+.sec1>p {
+    font-size: 24px;
+    width: 640px;
+    text-align: justify;
+}
+/* *************************************************** Section 1 ***************************************************************************** */
+
+
+/* *************************************************** Section 2 ***************************************************************************** */
+.sec2 {
+    padding: 60px 200px;
+    background-color: rgba(231, 146, 236, 0.081);
+    font-family: cursive !important;
+}
+.hrHalf {
+    width: 400px;
+}
+/* *************************************************** Section 2 ***************************************************************************** */
