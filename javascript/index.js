@@ -30,3 +30,7 @@ function displaySec1(arr) {
 
 document.getElementsByClassName('sec1')[0].innerHTML = displaySec1(introArray);
 // ***************************************************************************************************************************************//
+
+let aboutText = `Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi aliquam dolore temporibus perspiciatis ipsam consectetur voluptatum velit, optio commodi deserunt deleniti quisquam incidunt ea quae, labore facere sed obcaecati accusamus. Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum, nesciunt! Vel ab quia error maiores! Esse enim beatae quae repellendus odio perferendis magnam officiis id. Consectetur temporibus deleniti consequatur tempora. Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi aliquam dolore temporibus perspiciatis ipsam consectetur voluptatum velit, optio commodi deserunt deleniti quisquam incidunt ea quae, labore facere sed obcaecati accusamus. Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum, nesciunt! Vel ab quia error maiores! Esse enim beatae quae repellendus odio perferendis magnam officiis id. Consectetur temporibus deleniti consequatur tempora. Lorem ipsum dolor sit amet consectetur adipisicing elit.`;
+
+document.getElementsByClassName('sec2Part1')[0].innerHTML = aboutText;

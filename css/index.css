@@ -7,6 +7,12 @@
     justify-content: space-between;
     align-items: center;
 }
+.flexSBS {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: start;
+}
 header{
     position: fixed;
     width: 100%;
@@ -47,7 +53,7 @@ header{
 }
 /* *************************************************** Section 1 ***************************************************************************** */
 .sec1 {
-    padding: 150px 300px;
+    padding: 150px 18vw;
     background-color: rgba(231, 146, 236, 0.081);
     font-family: cursive !important;
 }
@@ -61,7 +67,7 @@ header{
 }
 .sec1>p {
     font-size: 24px;
-    width: 640px;
+    width: 42vw;
     text-align: justify;
 }
 /* *************************************************** Section 1 ***************************************************************************** */
@@ -72,8 +78,19 @@ header{
     padding: 60px 200px;
     background-color: rgba(231, 146, 236, 0.081);
     font-family: cursive !important;
+    text-align: justify !important;
 }
 .hrHalf {
     width: 400px;
+}
+.sec2Part1,.sec2Part2 {
+    padding: 60px 30px;
+    color: rgb(32, 32, 221);
+    line-height: 1.8;
+    width: 45%;
+    font-size: 18px;
+}
+.sec2Part2>img {
+    width: 100%;
 }
 /* *************************************************** Section 2 ***************************************************************************** */
