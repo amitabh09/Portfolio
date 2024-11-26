@@ -13,6 +13,9 @@
     justify-content: space-between;
     align-items: start;
 }
+.pad150px18vw {
+    padding: 150px 18vw;
+}
 header{
     position: fixed;
     width: 100%;
@@ -43,6 +46,11 @@ header{
 .head2>span>a {
     text-decoration: none;
 }
+.head2button>a{
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+}
 .head2button {
     font-size: 20px;
     padding: 14px 40px;
@@ -53,7 +61,6 @@ header{
 }
 /* *************************************************** Section 1 ***************************************************************************** */
 .sec1 {
-    padding: 150px 18vw;
     background-color: rgba(231, 146, 236, 0.081);
     font-family: cursive !important;
 }
@@ -75,7 +82,6 @@ header{
 
 /* *************************************************** Section 2 ***************************************************************************** */
 .sec2 {
-    padding: 60px 200px;
     background-color: rgba(231, 146, 236, 0.081);
     font-family: cursive !important;
     text-align: justify !important;
