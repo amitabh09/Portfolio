@@ -14,18 +14,19 @@ const navArray = [
     {'path':'#linkProjects','title':'Projects'},
     {'path':'#linkContact','title':'Contact'}
 ];
+        
 let resumePDF = './images/pdfFile.pdf';
 
 function displayNavbar(arr) {
-    let str = '';
+    let str = '<div class="head flexSBC"> <div class="head1"><img src="./images/profile.jpg" alt=""></div> <div class="head2 flexSBC">';
     for(obj of arr) {
         str += `<span><a href=${obj.path}>${obj.title}</a></span>`;
     }
-    str+=`<button class="head2button"><a href=${resumePDF} download="newfilename">Resume</a></button>`;
+    str+=`<button class="head2button"><a href=${resumePDF} download="newfilename">Resume</a></button></div></div>`;
     return str;
 }
 
-document.getElementsByClassName('head2')[0].innerHTML = displayNavbar(navArray);
+document.getElementsByTagName('header')[0].innerHTML = displayNavbar(navArray);
 // ***************************************************************************************************************************************//
 
 // ************************************************* Section 1 ***************************************************************************//
