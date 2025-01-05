@@ -10,7 +10,37 @@
 </head>
 
 <body>
-    <header></header>
+    <header>
+        <div class="head flexSBC">
+            <div class="head1">
+                <img src="./images/profile.jpg" alt="">
+            </div>
+            <div class="head2 flexSBC">
+                <span><a href="#home">Home</a></span>
+                <span><a href="#linkAbout">About</a></span>
+                <span><a href="#linkSkills">Skills</a></span>
+                <span><a href="#linkCareer">Career</a></span>
+                <span><a href="#linkProjects">Projects</a></span>
+                <span><a href="#linkContact">Contact</a></span>
+                <button class="head2button"> <a href="./images/pdfFile.pdf" download="newfilename">Resume</a> </button>
+            </div>
+        </div>
+    </header>
+    <div class="mobileNavbar">
+        <div class="hamburgerContainer">
+            <img src="./images/burger.png" alt="--" onclick="toggleMobileMenu()">
+        </div>
+        <div class="mobileMenu">
+            <a href="#home">Home</a>
+            <a href="#linkAbout">About</a>
+            <a href="#linkSkills">Skills</a>
+            <a href="#linkCareer">Career</a>
+            <a href="#linkProjects">Projects</a>
+            <a href="#linkContact">Contact</a>
+            <a href="./images/pdfFile.pdf" download="newfilename"><button>Download Resume</button></a>
+        </div>
+    </div>
+    
 
     <section class="marginV1" id="home">
         <div class="sec1 paddingV1">
@@ -28,10 +58,11 @@
             <br>
             <div class="sec2Main sec2MainflexSBS">
                 <div class="sec2Part1">
-                    <img src="https://500px.com/staticV2/media/editors7@3x.7a76c89b.png" alt="">
+                    <!-- <img src="https://500px.com/staticV2/media/editors7@3x.7a76c89b.png" alt=""> -->
+                    <img src="./images/profile.jpg" alt="">
                 </div>
-                <div class="sec2Part2">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi aliquam dolore temporibus perspiciatis ipsam consectetur voluptatum velit, optio commodi deserunt deleniti quisquam incidunt ea quae, labore facere sed obcaecati accusamus. Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum, nesciunt! Vel ab quia error maiores! Esse enim beatae quae repellendus odio perferendis magnam officiis id. Consectetur temporibus deleniti consequatur tempora. Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi aliquam dolore temporibus perspiciatis ipsam consectetur voluptatum velit, optio commodi deserunt deleniti quisquam incidunt ea quae, labore facere sed obcaecati accusamus. Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum, nesciunt! Vel ab quia error maiores! Esse enim beatae quae repellendus odio perferendis magnam officiis id. Consectetur temporibus deleniti consequatur tempora. Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                <div class="sec2Part2"> 
+                    
                 </div>
             </div>
         </div>
@@ -40,13 +71,14 @@
     <section class="marginV1" id="linkSkills">
         <div class="sec3 paddingV1">
             <div class="sec3Heading flexSBC"></div>
-            <br><br>
-            <div class="flexSBC">
-                <img src="./images/skillReact.png" alt="reactjs">
-                <img src="./images/skillReact.png" alt="reactjs">
+            <br>
+            <div class="sec3Skills sec3FlexSBC">
+                
             </div>
         </div>
     </section>
+
+    <section><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br></section>
 
     <script src="./js/index.js"></script>
     <script src="./js/responsive.js"></script>

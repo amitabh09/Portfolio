@@ -73,6 +73,49 @@ header{
     cursor: pointer;
 }
 
+.mobileNavbar {
+    width: 100%;
+}
+.hamburgerContainer {
+    height: 50px;
+    width: 100%;
+    background-color: rgb(179, 233, 179);
+    /* display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start; */
+}
+.hamburgerContainer>img {
+    padding-top: 5px;
+    width: 40px;
+    padding-left: 10px;
+}
+.mobileMenu {
+    display: none;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    background-color: rgb(179, 233, 179);
+    padding-bottom: 10px;
+}
+.mobileMenu > a {
+    text-decoration: none;
+    font-family: 'Courier New', Courier, monospace;
+    color: black;
+    font-size: 1.2rem;
+    padding-top: 10px;
+    padding-left: 10px;
+}
+.mobileMenu > a > button{
+    font-size: 1.1rem;
+    padding: 4px 10px;
+    border: none;
+    border-radius: 6px;
+    color: white;
+    background-color: rgb(51,85,179);
+    cursor: pointer;
+}
+
 
 /* *************************************************** Section 1 ***************************************************************************** */
 .sec1 {
@@ -128,12 +171,31 @@ header{
 
 
 /* *************************************************** Section 3 ***************************************************************************** */
+.sec3FlexSBC {
+    display: grid;
+    grid-template-columns: 120px 120px 120px 120px 120px ;
+    row-gap: 50px;
+    justify-content: space-between;
+}
+.sec3FlexSBS {
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+}
 .sec3 {
+    padding-bottom: 50px;
     background-color: rgba(231, 146, 236, 0.081);
     font-family: cursive !important;
     text-align: justify !important;
 }
 
-.sec3>div>img {
-    width: 100px;
+.sec3Skills>div>img {
+    width: 48px;
+}
+.sec3Skills>div>p {
+    padding-left: 8px;
+    font-size: 1.4rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 550;
 }

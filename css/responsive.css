@@ -1,5 +1,8 @@
 
 @media (min-width: 1200px) {
+    .mobileNavbar {
+        display: none;
+    }
     /* Styles for very large screens */
     .sec2Part1,.sec2Part2 {
         width: 45%;
@@ -23,6 +26,11 @@
     .hrHalf {
         width: 320px;
     }
+
+    .mobileNavbar {
+        display: none;
+    }
+
     .sec1>p {
         font-size: 1.6rem;
         width: 80%;
@@ -43,8 +51,23 @@
         font-size: 1.1rem;
         line-height: 1.7;
     }
-}
 
+    .sec3FlexSBC {
+        display: grid;
+        grid-template-columns: 150px 150px 150px 150px;
+        row-gap: 50px;
+        justify-content: space-between;
+    }
+    .sec3skills>div>img {
+        width: 48px;
+    }
+    .sec3skills>div>p {
+        font-size: 1.4rem;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-weight: 550;
+    }
+}
+ 
 
 @media (min-width: 768px) and (max-width: 991px) {
     .marginV1 {
@@ -59,6 +82,14 @@
     .hrHalf {
         width: 230px;
     }
+
+    .head1 {
+        display: none;
+    }
+    .mobileNavbar {
+        display: none;
+    }
+
     .sec1>p {
         font-size: 1.42rem;
         width: 85%;
@@ -79,6 +110,21 @@
         font-size: 1.1rem;
         line-height: 1.5;
     }
+
+    .sec3FlexSBC {
+        display: grid;
+        grid-template-columns: 150px 150px 150px;
+        row-gap: 50px;
+        justify-content: space-between;
+    }
+    .sec3skills>div>img {
+        width: 48px;
+    }
+    .sec3skills>div>p {
+        font-size: 1.3rem;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-weight: 550;
+    }
 }
 
 
@@ -96,6 +142,28 @@
     .hrHalf {
         width: 220px;
     }
+
+    .head1 {
+        display: none;
+    }
+    .head {
+        padding: 0px 40px;
+    }
+    .head2button, .head2>span>a {
+        font-size: 18px;
+        padding-right: 8px;
+    }
+    .head2button>a{
+        font-size: 18px;
+    }
+    .head2button {
+        padding: 10px 16px;
+        border-radius: 5px;
+    }
+    .mobileNavbar {
+        display: none;
+    }
+
     .sec1>p {
         font-size: 1.35rem;
         width: 99%;
@@ -121,13 +189,29 @@
         font-size: 1.1rem;
         line-height: 1.5;
     }
+
+    .sec3FlexSBC {
+        display: grid;
+        grid-template-columns: 150px 150px 150px;
+        row-gap: 50px;
+        justify-content: space-between;
+    }
+    .sec3skills>div>img {
+        width: 48px;
+    }
+    .sec3skills>div>p {
+        font-size: 1.3rem;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-weight: 550;
+    }
 }
 
 
 @media (min-width: 360px) and (max-width: 575px) {
     /* Styles for small phones */
     .marginV1 {
-        margin-top:  clamp(105px, 10vh, 100vh);
+        /* margin-top:  clamp(105px, 10vh, 100vh); */
+        margin-top: 30px;
         margin-bottom: 1vh;
         margin-left: 1vw;
         margin-right: 1vw;
@@ -138,6 +222,14 @@
     .hrHalf {
         width: 100px;
     }
+
+    .head {
+        display: none;
+    }
+    .mobileNavbar {
+        display: block;
+    }
+
     .sec1>p {
         font-size: 1.2rem;
         width: 99%;
@@ -169,13 +261,29 @@
         font-size: 1.2rem;
         line-height: 1.5;
     }
+
+    .sec3FlexSBC {
+        display: grid;
+        grid-template-columns: 150px 150px;
+        row-gap: 50px;
+        justify-content: space-between;
+    }
+    .sec3skills>div>img {
+        width: 48px;
+    }
+    .sec3skills>div>p {
+        font-size: 1.3rem;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-weight: 550;
+    }
 }
 
 
 @media (max-width: 359px) {
     /* Styles for very small devices */
     .marginV1 {
-        margin-top:  clamp(105px, 10vh, 100vh);
+        /* margin-top:  clamp(105px, 10vh, 100vh); */
+        margin-top: 30px;
         margin-bottom: 1vh;
         margin-left: 1vw;
         margin-right: 1vw;
@@ -186,6 +294,14 @@
     .hrHalf {
         width: 100px;
     }
+
+    .head {
+        display: none;
+    }
+    .mobileNavbar {
+        display: block;
+    }
+    
     .sec1>p {
         font-size: 1rem;
         width: 99%;
@@ -210,5 +326,20 @@
         padding: 20px 10px;
         font-size: 1.2rem;
         line-height: 1.5;
+    }
+
+    .sec3FlexSBC {
+        display: grid;
+        grid-template-columns: 150px;
+        row-gap: 50px;
+        justify-content: center;
+    }
+    .sec3skills>div>img {
+        width: 48px;
+    }
+    .sec3skills>div>p {
+        font-size: 1.3rem;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-weight: 550;
     }
 }
