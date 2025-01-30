@@ -67,4 +67,5 @@ document.getElementsByClassName('sec3Skills')[0].innerHTML = sec3SkillsText;
 
 
 // ************************************************* Section 4 ***************************************************************************//
- 
+
+document.getElementsByClassName('sec4Heading')[0].innerHTML = displayHeading('Projects');

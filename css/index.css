@@ -199,3 +199,28 @@ header{
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-weight: 550;
 }
+
+
+/* *************************************************** Section 4 ***************************************************************************** */
+
+.sec4FlexSBC {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.sec4 {
+    padding-bottom: 50px;
+    background-color: rgba(231, 146, 236, 0.081);
+    font-family: cursive !important;
+    text-align: justify !important;
+}
+.sec4Grid {
+    display: grid;
+    grid-template-columns: 360px 360px 360px;
+    justify-content: space-between;
+}
+.sec4Grid>div>img{
+    width: 100%;
+    border-radius: 2%;
+}
