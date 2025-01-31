@@ -203,11 +203,8 @@ header{
 
 /* *************************************************** Section 4 ***************************************************************************** */
 
-.sec4FlexSBC {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
+.cardButtonDiv {
+    padding-top: 24px;
 }
 .sec4 {
     padding-bottom: 50px;
@@ -223,4 +220,10 @@ header{
 .sec4Grid>div>img{
     width: 100%;
     border-radius: 2%;
+}
+.sec4Grid>div>h3{
+    padding-top: 16px;
+}
+.sec4Grid>div>p{
+    padding-top: 20px;
 }
