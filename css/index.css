@@ -27,6 +27,10 @@
     width: 400px;
 }
 
+.sec2Heading, .sec3Heading, .sec4Heading, sec5Heading {
+    font-size: 1.2rem;
+}
+
 /* ***************************************************** Header ****************************************************************************** */
 header{
     position: fixed;
@@ -116,7 +120,6 @@ header{
     cursor: pointer;
 }
 
-
 /* *************************************************** Section 1 ***************************************************************************** */
 .sec1 {
     background-color: rgba(231, 146, 236, 0.081);
@@ -203,9 +206,6 @@ header{
 
 /* *************************************************** Section 4 ***************************************************************************** */
 
-.cardButtonDiv {
-    padding-top: 24px;
-}
 .sec4 {
     padding-bottom: 50px;
     background-color: rgba(231, 146, 236, 0.081);
@@ -217,13 +217,37 @@ header{
     grid-template-columns: 360px 360px 360px;
     justify-content: space-between;
 }
-.sec4Grid>div>img{
+.projImage {
+    width: 35%;
+}
+.projImage>img{
     width: 100%;
     border-radius: 2%;
 }
-.sec4Grid>div>h3{
-    padding-top: 16px;
+.projContents {
+    width: 62%;
+    padding-right: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
 }
-.sec4Grid>div>p{
-    padding-top: 20px;
+.projContents>h3 {
+    font-size: 1.5rem;
+}
+.projContents>p {
+    padding-top: 10px;
+    font-size: 1rem;
+}
+
+.cardButtonDiv {
+    padding-top: 24px;
+    width: 99%;
+}
+.cardButtonDiv>button {
+    font-size: 1rem;
+}
+.cardButtonDiv>button>a {
+    text-decoration: none;
+}
+.projCard {
 }

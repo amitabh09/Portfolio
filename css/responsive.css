@@ -13,7 +13,7 @@
 }
 
 
-@media (min-width: 992px) and (max-width: 1199px) {
+@media (min-width: 991px) and (max-width: 1199px) {
     .marginV1 {
         margin-top:  clamp(105px, 14vh, 100vh);
         margin-bottom: 1vh;
@@ -69,7 +69,7 @@
 }
  
 
-@media (min-width: 768px) and (max-width: 991px) {
+@media (min-width: 767px) and (max-width: 991px) {
     .marginV1 {
         margin-top:  clamp(105px, 10vh, 100vh);
         margin-bottom: 1vh;
